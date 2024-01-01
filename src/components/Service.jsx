@@ -35,7 +35,8 @@ const Service = () => {
               <div className=' grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2  gap-16 md:gap-5 place-items-center'>
                 {
                   ServicesData.map(({id,img,name,description})=>{
-                    return <div key={id} className='max-w-[300px] flex justify-center items-center flex-col group rounded-2xl bg-white  dark:bg-gray-800 hover:bg-primary hover:text-white duration-300 py-4 shadow-xl'>
+                    return <div key={id}
+                     className='max-w-[300px] flex justify-center items-center flex-col group rounded-2xl bg-white  dark:bg-gray-800 hover:bg-primary/65 hover:text-white duration-300 py-4 shadow-xl dark:shadow-[0_10px_20px_-5px_rgba(0,188,212,1)] dark:hover:shadow-[0_10px_60px_-5px_rgba(0,188,212,1)]'>
                       <div className=''>
                         <img src={img} alt="" className='mx-auto inline-flex justify-center items-center  transform -translate-y-14 group-hover:scale-105 group-hover:rotate-6 duration-300 rounded-full w-44 h-44' />
                       </div>

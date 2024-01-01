@@ -28,7 +28,7 @@ const Banner = () => {
                 <img
                   src={food}
                   alt="biryani img"
-                  className="max-w-[430px] w-full mx-auto drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)]"
+                  className="max-w-[430px] w-full mx-auto drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] dark:drop-shadow-[-7px_5px_15px_rgba(229,231,235,0.6)]"
                 />
               </div>
               {/* text content section */}

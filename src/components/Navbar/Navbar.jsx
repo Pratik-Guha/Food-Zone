@@ -45,8 +45,8 @@ const Navbar = () => {
                   <DarkMode/>
                 </div>
                 <ul className='hidden sm:flex gap-4'>
-                  <li><a href="#" className='navli'>Home</a></li>
-                  <li><a href="#" className='navli'>About</a></li>
+                  <li><a href="Hero" className='navli'>Home</a></li>
+                  <li><a href="Service" className='navli'>About</a></li>
                   <li><a href="#" className='navli'>Contact</a></li>
                 </ul>
                 <button className='flex items-center gap-2 btn'>
